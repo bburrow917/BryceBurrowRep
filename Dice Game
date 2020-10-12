@@ -1,0 +1,8 @@
+import random
+response = ['y','Y','Yes','yes']
+while True:
+    if input('Do you want to roll: ') in response:
+        print(random.randint(1,6))
+    else:
+        print('Thank you for playing')
+        break 
